@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to ang-mat-datatable!');
+    expect(page.getTitleText()).toEqual('Welcome to Ang-Material!');
   });
 
   afterEach(async () => {
